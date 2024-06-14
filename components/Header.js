@@ -9,9 +9,9 @@ const NavBar = () => {
   const BLOG = useConfig()
   const locale = useLocale()
   const links = [
-    { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
-    { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true }
+    { id: 0, name: locale.NAV.INDEX, to: 'https://portafolio-pipeaalzamora.vercel.app/', show: true },
+    { id: 1, name: locale.NAV.ABOUT, to: '/Sobremi', show: BLOG.showAbout },
+    { id: 3, name: locale.NAV.SEARCH, to: '/buscar', show: true }
   ]
   return (
     <div className="flex-shrink-0">
@@ -97,7 +97,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
         >
           <path
             d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"
-            className="fill-black"
+            className="fill-black dark:fill-white"
           />
         </svg>
         <div className="flex items-center">
