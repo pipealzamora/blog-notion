@@ -16,7 +16,6 @@ const BLOG = {
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  
   socialLink: 'https://www.instagram.com/pipealzamora/',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
