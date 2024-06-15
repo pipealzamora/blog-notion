@@ -1,5 +1,5 @@
 import { getAllPosts, getAllTagsFromPosts } from '@/lib/notion'
-import SearchLayout from '@/layouts/search'
+import SearchLayout from '@/layouts/buscar'
 
 export default function Tag ({ tags, posts, currentTag }) {
   return <SearchLayout tags={tags} posts={posts} currentTag={currentTag} />
