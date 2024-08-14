@@ -10,8 +10,9 @@ const NavBar = () => {
   const locale = useLocale()
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: 'https://portafolio-pipeaalzamora.vercel.app/', show: true },
-    { id: 1, name: locale.NAV.ABOUT, to: '/Sobremi', show: BLOG.showAbout },
-    { id: 3, name: locale.NAV.SEARCH, to: '/buscar', show: true }
+    { id: 1, name: locale.NAV.ABOUT, to: '/Sobremi', show: BLOG.sobremi },
+    { id: 3, name: locale.NAV.SEARCH, to: '/buscar', show: true },
+    { id: 4, name: locale.NAV.SEARCH, to: '/blogpersonal', show: BLOG.personal }
   ]
   return (
     <div className="flex-shrink-0">
