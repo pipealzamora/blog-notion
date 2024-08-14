@@ -101,7 +101,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
           />
         </svg>
         <div className="flex items-center">
-          <Link href="/" aria-label={BLOG.title}>
+
             <Image
               src={favicon}
               width={24}
@@ -109,7 +109,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
               alt={BLOG.title}
               onError={() => setFavicon(true)}
             />
-          </Link>
+
           <Link href="/" aria-label={BLOG.title}>
           <HeaderName
             ref={titleRef}
