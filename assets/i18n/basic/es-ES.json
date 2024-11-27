@@ -2,7 +2,8 @@
   "NAV": {
     "INDEX": "Portafolio",
     "SEARCH": "Buscar",
-    "ABOUT": "Acerca de mí"
+    "ABOUT": "Acerca de mí",
+    "STARTUP":"Startup"
   },
   "PAGINATION": {
     "PREV": "Anterior",
